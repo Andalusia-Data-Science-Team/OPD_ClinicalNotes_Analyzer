@@ -1,0 +1,12 @@
+pandas==2.3.3
+numpy==2.3.3
+openpyxl==3.1.5
+streamlit==1.50.0
+fireworks-ai==0.19.19
+dotenv==0.9.9
+python-dotenv==1.1.1
+PyYAML==6.0.3
+requests==2.32.5
+fireworks==2.0.6
+pyodbc 
+sqlalchemy
