@@ -1,0 +1,33 @@
+[2026-07-17T14:36:49.723+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-16T08:30:00+00:00 [queued]>
+[2026-07-17T14:36:49.729+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-16T08:30:00+00:00 [queued]>
+[2026-07-17T14:36:49.729+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2026-07-17T14:36:49.798+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): er_query> on 2026-07-16 08:30:00+00:00
+[2026-07-17T14:36:49.804+0200] {standard_task_runner.py:57} INFO - Started process 1641237 to run task
+[2026-07-17T14:36:49.812+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_query', 'scheduled__2026-07-16T08:30:00+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py', '--cfg-path', '/tmp/tmp7nfqq0ki']
+[2026-07-17T14:36:49.814+0200] {standard_task_runner.py:85} INFO - Job 25: Subtask er_query
+[2026-07-17T14:36:49.858+0200] {task_command.py:416} INFO - Running <TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-16T08:30:00+00:00 [running]> on host localhost
+[2026-07-17T14:36:49.985+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='clinical-extractor' AIRFLOW_CTX_DAG_ID='clinical_extractor_daily' AIRFLOW_CTX_TASK_ID='er_query' AIRFLOW_CTX_EXECUTION_DATE='2026-07-16T08:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-07-16T08:30:00+00:00'
+[2026-07-17T14:36:51.263+0200] {logging_mixin.py:151} INFO -    Configuration loaded:
+[2026-07-17T14:36:51.263+0200] {logging_mixin.py:151} INFO -       Department:  ER
+[2026-07-17T14:36:51.263+0200] {logging_mixin.py:151} INFO -       Routing:     n/a (pinned)
+[2026-07-17T14:36:51.263+0200] {logging_mixin.py:151} INFO -       Model:       deepseek/deepseek-chat
+[2026-07-17T14:36:51.263+0200] {logging_mixin.py:151} INFO -       DB Server:   172.31.8.178
+[2026-07-17T14:36:51.263+0200] {logging_mixin.py:151} INFO -       DB Name:     DWH
+[2026-07-17T14:36:51.264+0200] {logging_mixin.py:151} INFO -       SQL file:    er_query.sql
+[2026-07-17T14:36:51.264+0200] {logging_mixin.py:151} INFO -       Batch size:  1
+[2026-07-17T14:36:51.264+0200] {logging_mixin.py:151} INFO -       Max rows:    unlimited
+[2026-07-17T14:36:51.265+0200] {logging_mixin.py:151} INFO -    Executing SQL query...
+[2026-07-17T14:36:53.036+0200] {logging_mixin.py:151} INFO -    Preserved column 'Patient_Code' as string (sample: 1101807010)
+[2026-07-17T14:36:53.039+0200] {logging_mixin.py:151} INFO -    Preserved column 'Episode_key' as string (sample: 11_1262147)
+[2026-07-17T14:36:53.040+0200] {logging_mixin.py:151} INFO -    Preserved column 'visit_id' as string (sample: 1262147AHJ)
+[2026-07-17T14:36:53.049+0200] {logging_mixin.py:151} INFO -    Deduplicated note parts in 3 row(s) (SQL cartesian product artefact removed)
+[2026-07-17T14:36:53.052+0200] {logging_mixin.py:151} INFO - 
+   DEBUG: Sample note (before cleaning):
+[2026-07-17T14:36:53.052+0200] {logging_mixin.py:151} INFO -       Emergency Department NotePatient: maleChief Complaint: Fever and chest pain.History of Present Illness:A male presented to the Emergency Department with fever and chest pain. The patient was febrile o...
+[2026-07-17T14:36:53.052+0200] {logging_mixin.py:151} INFO -    DEBUG: Sample note (after cleaning):
+[2026-07-17T14:36:53.052+0200] {logging_mixin.py:151} INFO -       Emergency Department NotePatient: maleChief Complaint: Fever and chest pain.History of Present Illness:A male presented to the Emergency Department with fever and chest pain. The patient was febrile o...
+[2026-07-17T14:36:53.056+0200] {logging_mixin.py:151} INFO -    Loaded 3 note(s) for extraction
+[2026-07-17T14:36:53.057+0200] {python.py:194} INFO - Done. Returned value was: /tmp/clinical_extractor/scheduled__2026-07-16T08:30:00+00:00/ER_notes.pkl
+[2026-07-17T14:36:54.857+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clinical_extractor_daily, task_id=er_query, execution_date=20260716T083000, start_date=20260717T123649, end_date=20260717T123654
+[2026-07-17T14:36:55.437+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-17T14:36:55.471+0200] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

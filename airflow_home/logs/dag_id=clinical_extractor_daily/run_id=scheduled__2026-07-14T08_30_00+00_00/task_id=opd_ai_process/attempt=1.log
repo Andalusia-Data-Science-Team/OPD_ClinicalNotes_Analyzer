@@ -1,0 +1,52 @@
+[2026-07-16T10:27:14.146+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clinical_extractor_daily.opd_ai_process scheduled__2026-07-14T08:30:00+00:00 [queued]>
+[2026-07-16T10:27:14.154+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clinical_extractor_daily.opd_ai_process scheduled__2026-07-14T08:30:00+00:00 [queued]>
+[2026-07-16T10:27:14.154+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2026-07-16T10:27:14.237+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): opd_ai_process> on 2026-07-14 08:30:00+00:00
+[2026-07-16T10:27:14.245+0200] {standard_task_runner.py:57} INFO - Started process 281277 to run task
+[2026-07-16T10:27:14.254+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_ai_process', 'scheduled__2026-07-14T08:30:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py', '--cfg-path', '/tmp/tmp6cizjco0']
+[2026-07-16T10:27:14.257+0200] {standard_task_runner.py:85} INFO - Job 9: Subtask opd_ai_process
+[2026-07-16T10:27:14.299+0200] {task_command.py:416} INFO - Running <TaskInstance: clinical_extractor_daily.opd_ai_process scheduled__2026-07-14T08:30:00+00:00 [running]> on host localhost
+[2026-07-16T10:27:14.358+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='clinical-extractor' AIRFLOW_CTX_DAG_ID='clinical_extractor_daily' AIRFLOW_CTX_TASK_ID='opd_ai_process' AIRFLOW_CTX_EXECUTION_DATE='2026-07-14T08:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-07-14T08:30:00+00:00'
+[2026-07-16T10:27:14.368+0200] {logging_mixin.py:151} INFO -    Configuration loaded:
+[2026-07-16T10:27:14.368+0200] {logging_mixin.py:151} INFO -       Department:  OPD
+[2026-07-16T10:27:14.368+0200] {logging_mixin.py:151} INFO -       Routing:     n/a (pinned)
+[2026-07-16T10:27:14.368+0200] {logging_mixin.py:151} INFO -       Model:       deepseek/deepseek-chat
+[2026-07-16T10:27:14.369+0200] {logging_mixin.py:151} INFO -       DB Server:   172.31.8.178
+[2026-07-16T10:27:14.369+0200] {logging_mixin.py:151} INFO -       DB Name:     DWH
+[2026-07-16T10:27:14.369+0200] {logging_mixin.py:151} INFO -       SQL file:    OPD_query.sql
+[2026-07-16T10:27:14.369+0200] {logging_mixin.py:151} INFO -       Batch size:  1
+[2026-07-16T10:27:14.369+0200] {logging_mixin.py:151} INFO -       Max rows:    unlimited
+[2026-07-16T10:27:15.341+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:15.346+0200] {logging_mixin.py:151} INFO -    Retrying in 1s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:16.488+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:16.490+0200] {logging_mixin.py:151} INFO -    Retrying in 2s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:18.964+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:18.966+0200] {logging_mixin.py:151} INFO -    ERROR after 3 retries: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}
+[2026-07-16T10:27:20.106+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:20.107+0200] {logging_mixin.py:151} INFO -    Retrying in 1s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:21.244+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:21.246+0200] {logging_mixin.py:151} INFO -    Retrying in 2s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:23.395+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:23.397+0200] {logging_mixin.py:151} INFO -    ERROR after 3 retries: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}
+[2026-07-16T10:27:24.545+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:24.546+0200] {logging_mixin.py:151} INFO -    Retrying in 1s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:25.697+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:25.699+0200] {logging_mixin.py:151} INFO -    Retrying in 2s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:27.844+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:27.846+0200] {logging_mixin.py:151} INFO -    ERROR after 3 retries: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}
+[2026-07-16T10:27:28.985+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:28.988+0200] {logging_mixin.py:151} INFO -    Retrying in 1s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:30.133+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:30.135+0200] {logging_mixin.py:151} INFO -    Retrying in 2s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:32.280+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:32.281+0200] {logging_mixin.py:151} INFO -    ERROR after 3 retries: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}
+[2026-07-16T10:27:33.429+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:33.431+0200] {logging_mixin.py:151} INFO -    Retrying in 1s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:34.572+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:34.574+0200] {logging_mixin.py:151} INFO -    Retrying in 2s... (Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}})
+[2026-07-16T10:27:36.727+0200] {_client.py:1025} INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+[2026-07-16T10:27:36.729+0200] {logging_mixin.py:151} INFO -    ERROR after 3 retries: Error code: 402 - {'error': {'message': 'Insufficient credits. Add more using https://openrouter.ai/settings/credits', 'code': 402}}
+[2026-07-16T10:27:36.735+0200] {python.py:194} INFO - Done. Returned value was: {'data_path': '/tmp/clinical_extractor/scheduled__2026-07-14T08:30:00+00:00/OPD_result.pkl', 'input_tokens': 0, 'output_tokens': 0, 'records': 5}
+[2026-07-16T10:27:38.478+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clinical_extractor_daily, task_id=opd_ai_process, execution_date=20260714T083000, start_date=20260716T082714, end_date=20260716T082738
+[2026-07-16T10:27:39.410+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-16T10:27:39.426+0200] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,24 @@
+[2026-07-16T10:27:55.977+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clinical_extractor_daily.opd_insert scheduled__2026-07-14T08:30:00+00:00 [queued]>
+[2026-07-16T10:27:55.984+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clinical_extractor_daily.opd_insert scheduled__2026-07-14T08:30:00+00:00 [queued]>
+[2026-07-16T10:27:55.984+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2026-07-16T10:27:56.101+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): opd_insert> on 2026-07-14 08:30:00+00:00
+[2026-07-16T10:27:56.111+0200] {standard_task_runner.py:57} INFO - Started process 282114 to run task
+[2026-07-16T10:27:56.120+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_insert', 'scheduled__2026-07-14T08:30:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py', '--cfg-path', '/tmp/tmpidxhll4y']
+[2026-07-16T10:27:56.122+0200] {standard_task_runner.py:85} INFO - Job 11: Subtask opd_insert
+[2026-07-16T10:27:56.161+0200] {task_command.py:416} INFO - Running <TaskInstance: clinical_extractor_daily.opd_insert scheduled__2026-07-14T08:30:00+00:00 [running]> on host localhost
+[2026-07-16T10:27:56.296+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='clinical-extractor' AIRFLOW_CTX_DAG_ID='clinical_extractor_daily' AIRFLOW_CTX_TASK_ID='opd_insert' AIRFLOW_CTX_EXECUTION_DATE='2026-07-14T08:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-07-14T08:30:00+00:00'
+[2026-07-16T10:27:56.306+0200] {logging_mixin.py:151} INFO -    Configuration loaded:
+[2026-07-16T10:27:56.306+0200] {logging_mixin.py:151} INFO -       Department:  OPD
+[2026-07-16T10:27:56.306+0200] {logging_mixin.py:151} INFO -       Routing:     n/a (pinned)
+[2026-07-16T10:27:56.306+0200] {logging_mixin.py:151} INFO -       Model:       deepseek/deepseek-chat
+[2026-07-16T10:27:56.306+0200] {logging_mixin.py:151} INFO -       DB Server:   172.31.8.178
+[2026-07-16T10:27:56.306+0200] {logging_mixin.py:151} INFO -       DB Name:     DWH
+[2026-07-16T10:27:56.306+0200] {logging_mixin.py:151} INFO -       SQL file:    OPD_query.sql
+[2026-07-16T10:27:56.307+0200] {logging_mixin.py:151} INFO -       Batch size:  1
+[2026-07-16T10:27:56.307+0200] {logging_mixin.py:151} INFO -       Max rows:    unlimited
+[2026-07-16T10:27:58.803+0200] {logging_mixin.py:151} INFO -    Renaming columns to match DB casing: {'FormattedDate': 'formatteddate', 'Doctor_Name': 'doctor_name', 'Patient_Code': 'patient_code', 'Episode_key': 'episode_key', 'Note': 'note', 'ICD10_code': 'icd10_code', 'ShortName': 'shortname', 'Arabic_Treatment_Plan': 'Arabic_Treatment_plan'}
+[2026-07-16T10:27:58.831+0200] {logging_mixin.py:151} INFO -    WARNING: Dropping columns not in destination table: ['Surgery_Visit_Type', 'Documentation_Appropriateness']
+[2026-07-16T10:27:59.668+0200] {python.py:194} INFO - Done. Returned value was: 5
+[2026-07-16T10:27:59.779+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clinical_extractor_daily, task_id=opd_insert, execution_date=20260714T083000, start_date=20260716T082755, end_date=20260716T082759
+[2026-07-16T10:27:59.980+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-16T10:27:59.996+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

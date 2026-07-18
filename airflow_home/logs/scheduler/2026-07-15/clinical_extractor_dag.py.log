@@ -1,0 +1,476 @@
+[2026-07-15T16:14:53.748+0200] {processor.py:157} INFO - Started process (PID=3405305) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:14:53.750+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:14:53.751+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:14:53.751+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:14:55.094+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:14:55.098+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:14:55.098+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:14:55.115+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:14:55.115+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:14:55.134+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.394 seconds
+[2026-07-15T16:16:07.265+0200] {processor.py:157} INFO - Started process (PID=3406522) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:16:07.267+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:16:07.268+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:16:07.267+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:16:08.586+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:16:08.598+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:16:08.597+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:16:08.616+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:16:08.616+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:16:09.501+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.239 seconds
+[2026-07-15T16:16:58.877+0200] {processor.py:157} INFO - Started process (PID=3407457) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:16:58.879+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:16:58.880+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:16:58.879+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:17:00.207+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:17:00.219+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:17:00.218+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:17:00.238+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:17:00.238+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:17:00.640+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.768 seconds
+[2026-07-15T16:17:49.106+0200] {processor.py:157} INFO - Started process (PID=3408277) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:17:49.107+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:17:49.108+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:17:49.108+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:17:50.402+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:17:50.414+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:17:50.414+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:17:50.433+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:17:50.433+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:17:50.453+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.353 seconds
+[2026-07-15T16:18:33.802+0200] {processor.py:157} INFO - Started process (PID=3409081) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:18:33.803+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:18:33.804+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:18:33.803+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:18:35.152+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:18:35.162+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:18:35.162+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:18:35.179+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:18:35.179+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:18:35.196+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.399 seconds
+[2026-07-15T16:19:18.225+0200] {processor.py:157} INFO - Started process (PID=3409873) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:19:18.226+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:19:18.227+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:19:18.226+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:19:19.555+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:19:19.566+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:19:19.566+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:19:19.583+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:19:19.583+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:19:19.946+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.728 seconds
+[2026-07-15T16:20:12.876+0200] {processor.py:157} INFO - Started process (PID=3410778) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:20:12.878+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:20:12.879+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:20:12.878+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:20:14.245+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:20:15.395+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:20:15.395+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:20:15.414+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:20:15.414+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:20:16.661+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 3.789 seconds
+[2026-07-15T16:21:00.587+0200] {processor.py:157} INFO - Started process (PID=3411582) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:21:00.589+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:21:00.590+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:21:00.589+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:21:01.869+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:21:01.881+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:21:01.881+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:21:01.898+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:21:01.898+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:21:01.914+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.330 seconds
+[2026-07-15T16:21:44.541+0200] {processor.py:157} INFO - Started process (PID=3412266) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:21:44.543+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:21:44.544+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:21:44.544+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:21:45.923+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:21:45.935+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:21:45.935+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:21:45.952+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:21:45.952+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:21:46.404+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.867 seconds
+[2026-07-15T16:22:30.757+0200] {processor.py:157} INFO - Started process (PID=3413107) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:22:30.759+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:22:30.760+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:22:30.760+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:22:32.062+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:22:32.073+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:22:32.073+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:22:32.091+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:22:32.091+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:22:32.107+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.355 seconds
+[2026-07-15T16:23:14.957+0200] {processor.py:157} INFO - Started process (PID=3413902) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:23:14.958+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:23:14.959+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:23:14.959+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:23:16.287+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:23:16.300+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:23:16.299+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:23:16.323+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:23:16.323+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:23:17.263+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.311 seconds
+[2026-07-15T16:23:59.421+0200] {processor.py:157} INFO - Started process (PID=3414606) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:23:59.423+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:23:59.424+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:23:59.423+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:24:00.760+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:24:00.771+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:24:00.771+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:24:00.787+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:24:00.787+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:24:01.477+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.062 seconds
+[2026-07-15T16:24:37.275+0200] {processor.py:157} INFO - Started process (PID=3415311) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:24:37.276+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:24:37.277+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:24:37.277+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:24:38.667+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:24:38.678+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:24:38.678+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:24:38.695+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:24:38.695+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:24:38.720+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.449 seconds
+[2026-07-15T16:25:17.799+0200] {processor.py:157} INFO - Started process (PID=3416011) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:25:17.801+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:25:17.802+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:25:17.801+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:25:19.111+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:25:19.124+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:25:19.123+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:25:19.140+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:25:19.140+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:25:19.275+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.481 seconds
+[2026-07-15T16:25:58.677+0200] {processor.py:157} INFO - Started process (PID=3416666) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:25:58.679+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:25:58.680+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:25:58.680+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:25:59.940+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:25:59.951+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:25:59.951+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:25:59.967+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:25:59.967+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:26:03.514+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 4.841 seconds
+[2026-07-15T16:26:56.668+0200] {processor.py:157} INFO - Started process (PID=3417660) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:26:56.670+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:26:56.670+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:26:56.670+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:26:58.071+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:26:58.082+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:26:58.082+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:26:58.099+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:26:58.099+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:26:58.698+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.037 seconds
+[2026-07-15T16:27:53.345+0200] {processor.py:157} INFO - Started process (PID=3418664) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:27:53.346+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:27:53.347+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:27:53.347+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:27:54.663+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:27:54.674+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:27:54.674+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:27:54.691+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:27:54.691+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:27:55.250+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.912 seconds
+[2026-07-15T16:28:43.844+0200] {processor.py:157} INFO - Started process (PID=3419447) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:28:43.845+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:28:43.846+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:28:43.846+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:28:45.151+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:28:45.161+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:28:45.161+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:28:45.179+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:28:45.179+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:28:45.263+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.425 seconds
+[2026-07-15T16:29:24.218+0200] {processor.py:157} INFO - Started process (PID=3420169) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:29:24.220+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:29:24.221+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:29:24.221+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:29:25.532+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:29:25.544+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:29:25.544+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:29:25.561+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:29:25.561+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:29:25.591+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.379 seconds
+[2026-07-15T16:30:09.593+0200] {processor.py:157} INFO - Started process (PID=3420894) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:30:09.595+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:30:09.596+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:30:09.596+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:30:10.866+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:30:10.877+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:30:10.877+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:30:10.895+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:30:10.894+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:30:10.912+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.327 seconds
+[2026-07-15T16:31:07.950+0200] {processor.py:157} INFO - Started process (PID=3421842) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:31:07.951+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:31:07.952+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:31:07.952+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:31:09.268+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:31:09.279+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:31:09.279+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:31:09.296+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:31:09.296+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:31:09.991+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.046 seconds
+[2026-07-15T16:31:57.796+0200] {processor.py:157} INFO - Started process (PID=3422778) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:31:57.797+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:31:57.799+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:31:57.798+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:31:59.179+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:31:59.190+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:31:59.189+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:31:59.207+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:31:59.206+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:31:59.223+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.432 seconds
+[2026-07-15T16:32:38.345+0200] {processor.py:157} INFO - Started process (PID=3423382) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:32:38.347+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:32:38.348+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:32:38.348+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:32:39.700+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:32:39.710+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:32:39.710+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:32:39.726+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:32:39.726+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:32:40.710+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.369 seconds
+[2026-07-15T16:33:23.531+0200] {processor.py:157} INFO - Started process (PID=3424233) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:33:23.532+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:33:23.533+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:33:23.533+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:33:24.913+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:33:24.923+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:33:24.923+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:33:24.942+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:33:24.942+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:33:25.169+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.644 seconds
+[2026-07-15T16:34:09.241+0200] {processor.py:157} INFO - Started process (PID=3425011) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:34:09.244+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:34:09.246+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:34:09.245+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:34:10.579+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:34:10.593+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:34:10.592+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:34:10.611+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:34:10.611+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:34:10.630+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.396 seconds
+[2026-07-15T16:34:49.279+0200] {processor.py:157} INFO - Started process (PID=3425710) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:34:49.281+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:34:49.282+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:34:49.281+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:34:50.629+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:34:50.640+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:34:50.640+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:34:50.658+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:34:50.658+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:34:52.024+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.750 seconds
+[2026-07-15T16:35:38.196+0200] {processor.py:157} INFO - Started process (PID=3426516) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:35:38.198+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:35:38.199+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:35:38.198+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:35:39.553+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:35:39.565+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:35:39.565+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:35:39.586+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:35:39.586+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:35:39.609+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.418 seconds
+[2026-07-15T16:36:22.441+0200] {processor.py:157} INFO - Started process (PID=3427516) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:36:22.443+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:36:22.444+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:36:22.444+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:36:23.712+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:36:23.724+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:36:23.724+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:36:23.741+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:36:23.741+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:36:26.380+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 3.944 seconds
+[2026-07-15T16:37:12.843+0200] {processor.py:157} INFO - Started process (PID=3428570) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:37:12.844+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:37:12.845+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:37:12.845+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:37:14.169+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:37:14.180+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:37:14.180+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:37:14.197+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:37:14.197+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:37:14.506+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.669 seconds
+[2026-07-15T16:38:07.052+0200] {processor.py:157} INFO - Started process (PID=3429595) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:38:07.053+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:38:07.054+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:38:07.053+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:38:08.412+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:38:08.424+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:38:08.424+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:38:08.445+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:38:08.445+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:38:08.706+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.661 seconds
+[2026-07-15T16:38:58.742+0200] {processor.py:157} INFO - Started process (PID=3430583) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:38:58.743+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:38:58.744+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:38:58.744+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:39:00.027+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:39:00.038+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:39:00.038+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:39:00.054+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:39:00.054+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:39:00.180+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.443 seconds
+[2026-07-15T16:39:55.594+0200] {processor.py:157} INFO - Started process (PID=3431622) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:39:55.596+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:39:55.597+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:39:55.597+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:39:56.886+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:39:56.897+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:39:56.897+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:39:56.915+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:39:56.915+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:39:56.976+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.386 seconds
+[2026-07-15T16:40:52.547+0200] {processor.py:157} INFO - Started process (PID=3432625) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:40:52.549+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:40:52.550+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:40:52.549+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:40:53.799+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:40:54.248+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:40:54.247+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:40:54.265+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:40:54.264+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:40:54.585+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.042 seconds
+[2026-07-15T16:41:45.572+0200] {processor.py:157} INFO - Started process (PID=3433545) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:41:45.574+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:41:45.575+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:41:45.575+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:41:46.822+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:41:46.833+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:41:46.833+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:41:46.848+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:41:46.848+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:41:47.254+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.686 seconds
+[2026-07-15T16:42:33.439+0200] {processor.py:157} INFO - Started process (PID=3434427) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:42:33.440+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:42:33.441+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:42:33.441+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:42:34.808+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:42:34.819+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:42:34.819+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:42:34.837+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:42:34.837+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:42:34.854+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.421 seconds
+[2026-07-15T16:43:25.753+0200] {processor.py:157} INFO - Started process (PID=3435391) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:43:25.755+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:43:25.756+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:43:25.755+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:43:27.046+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:43:27.057+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:43:27.057+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:43:27.075+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:43:27.075+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:43:27.392+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.642 seconds
+[2026-07-15T16:44:12.778+0200] {processor.py:157} INFO - Started process (PID=3436139) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:44:12.779+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:44:12.780+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:44:12.780+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:44:14.013+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:44:14.025+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:44:14.025+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:44:14.042+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:44:14.042+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:44:14.652+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.879 seconds
+[2026-07-15T16:44:59.590+0200] {processor.py:157} INFO - Started process (PID=3437017) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:44:59.592+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:44:59.593+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:44:59.592+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:45:00.846+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:45:00.858+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:45:00.857+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:45:00.876+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:45:00.875+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:45:01.831+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.244 seconds
+[2026-07-15T16:46:01.331+0200] {processor.py:157} INFO - Started process (PID=3438135) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:46:01.333+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:46:01.334+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:46:01.333+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:46:02.604+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:46:02.615+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:46:02.615+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:46:02.631+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:46:02.631+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:46:03.533+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.208 seconds
+[2026-07-15T16:46:59.180+0200] {processor.py:157} INFO - Started process (PID=3439044) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:46:59.182+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:46:59.183+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:46:59.182+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:47:00.462+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:47:00.473+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:47:00.473+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:47:00.491+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:47:00.491+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:47:01.466+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.293 seconds
+[2026-07-15T16:47:57.568+0200] {processor.py:157} INFO - Started process (PID=3440081) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:47:57.570+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:47:57.571+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:47:57.570+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:47:58.865+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:47:58.987+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:47:58.986+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:47:59.004+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:47:59.003+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:47:59.019+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.458 seconds
+[2026-07-15T16:48:53.696+0200] {processor.py:157} INFO - Started process (PID=3441046) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:48:53.775+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:48:53.777+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:48:53.776+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:48:55.080+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:48:55.090+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:48:55.090+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:48:55.107+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:48:55.107+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:48:55.880+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.190 seconds
+[2026-07-15T16:49:51.995+0200] {processor.py:157} INFO - Started process (PID=3442024) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:49:51.996+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:49:51.997+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:49:51.997+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:49:53.341+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:49:53.352+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:49:53.352+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:49:53.371+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:49:53.371+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:49:54.655+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.665 seconds
+[2026-07-15T16:50:46.369+0200] {processor.py:157} INFO - Started process (PID=3442985) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:50:46.866+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:50:46.867+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:50:46.867+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:50:48.174+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:50:48.186+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:50:48.186+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:50:48.203+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:50:48.203+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:50:50.435+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 4.071 seconds
+[2026-07-15T16:51:47.523+0200] {processor.py:157} INFO - Started process (PID=3443992) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:51:47.758+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:51:47.761+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:51:47.760+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:51:49.020+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:51:49.031+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:51:49.030+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:51:49.047+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:51:49.047+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:51:49.065+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.546 seconds
+[2026-07-15T16:52:50.059+0200] {processor.py:157} INFO - Started process (PID=3445104) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:52:50.061+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:52:50.061+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:52:50.061+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:52:51.308+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:52:51.319+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:52:51.318+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:52:51.336+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:52:51.336+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:52:52.462+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.407 seconds
+[2026-07-15T16:53:59.331+0200] {processor.py:157} INFO - Started process (PID=3446229) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:53:59.339+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:53:59.340+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:53:59.340+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:54:00.692+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:54:00.702+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:54:00.702+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:54:00.719+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:54:00.719+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:54:01.306+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.980 seconds
+[2026-07-15T16:55:06.832+0200] {processor.py:157} INFO - Started process (PID=3447356) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:55:06.833+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:55:06.834+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:55:06.834+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:55:08.174+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:55:08.184+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:55:08.184+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:55:08.201+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:55:08.201+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:55:09.317+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.490 seconds
+[2026-07-15T16:56:06.676+0200] {processor.py:157} INFO - Started process (PID=3448352) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:56:06.678+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:56:06.679+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:56:06.679+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:56:07.961+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:56:07.973+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:56:07.973+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:56:07.991+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:56:07.991+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:56:08.210+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.540 seconds
+[2026-07-15T16:57:12.989+0200] {processor.py:157} INFO - Started process (PID=3449473) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:57:12.990+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:57:12.991+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:57:12.990+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:57:14.280+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:57:17.436+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:57:17.436+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:57:17.453+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:57:17.452+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:57:17.471+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 4.488 seconds
+[2026-07-15T16:58:30.217+0200] {processor.py:157} INFO - Started process (PID=3450903) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:58:30.219+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T16:58:30.220+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:58:30.219+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:58:31.519+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T16:58:31.553+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:58:31.553+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T16:58:31.572+0200] {logging_mixin.py:151} INFO - [2026-07-15T16:58:31.572+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T16:58:31.630+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.419 seconds
+[2026-07-15T17:00:29.202+0200] {processor.py:157} INFO - Started process (PID=3452945) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:00:29.238+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:00:29.241+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:00:29.240+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:00:30.574+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:00:30.587+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:00:30.586+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:00:30.605+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:00:30.604+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:00:30.624+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.425 seconds
+[2026-07-15T17:02:21.086+0200] {processor.py:157} INFO - Started process (PID=3454896) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:02:21.706+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:02:21.710+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:02:21.709+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:02:23.026+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:02:23.037+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:02:23.037+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:02:23.056+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:02:23.056+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:02:23.182+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.101 seconds
+[2026-07-15T17:03:53.759+0200] {processor.py:157} INFO - Started process (PID=3456572) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:03:53.761+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:03:53.762+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:03:53.761+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:03:55.110+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:03:55.120+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:03:55.120+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:03:55.137+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:03:55.136+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:03:55.155+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.402 seconds
+[2026-07-15T17:04:56.524+0200] {processor.py:157} INFO - Started process (PID=3457597) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:04:56.630+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:04:56.632+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:04:56.631+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:04:57.907+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:04:57.917+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:04:57.917+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:04:57.936+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:04:57.936+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:04:58.158+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.640 seconds
+[2026-07-15T17:06:04.987+0200] {processor.py:157} INFO - Started process (PID=3458687) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:06:04.989+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:06:04.990+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:06:04.989+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:06:06.306+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:06:06.317+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:06:06.317+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:06:06.334+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:06:06.334+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:06:06.351+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.370 seconds
+[2026-07-15T17:07:09.164+0200] {processor.py:157} INFO - Started process (PID=3459805) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:07:09.277+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:07:09.280+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:07:09.279+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:07:10.571+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:07:10.583+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:07:10.583+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:07:10.599+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:07:10.599+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:07:10.836+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.677 seconds
+[2026-07-15T17:08:38.098+0200] {processor.py:157} INFO - Started process (PID=3461352) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:08:38.100+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:08:38.101+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:08:38.100+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:08:39.397+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:08:39.408+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:08:39.408+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:08:39.424+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:08:39.424+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:08:41.278+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 3.183 seconds
+[2026-07-15T17:10:19.271+0200] {processor.py:157} INFO - Started process (PID=3463001) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:10:19.629+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:10:19.630+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:10:19.630+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:10:20.935+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:10:20.946+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:10:20.946+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:10:20.962+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:10:20.962+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:10:21.361+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.095 seconds
+[2026-07-15T17:11:52.875+0200] {processor.py:157} INFO - Started process (PID=3464555) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:11:53.074+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:11:53.077+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:11:53.075+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:11:54.316+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:11:54.328+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:11:54.327+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:11:54.346+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:11:54.346+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:11:54.425+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.553 seconds
+[2026-07-15T17:13:27.550+0200] {processor.py:157} INFO - Started process (PID=3466322) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:13:27.552+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:13:27.553+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:13:27.552+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:13:28.921+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:13:28.936+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:13:28.936+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:13:28.954+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:13:28.954+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:13:28.973+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.428 seconds
+[2026-07-15T17:14:49.475+0200] {processor.py:157} INFO - Started process (PID=3467745) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:14:49.477+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:14:49.478+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:14:49.477+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:14:50.843+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:14:50.854+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:14:50.854+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:14:50.872+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:14:50.872+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:14:52.532+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 3.062 seconds
+[2026-07-15T17:15:49.652+0200] {processor.py:157} INFO - Started process (PID=3469053) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:15:49.654+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:15:49.655+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:15:49.654+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:15:50.941+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:15:50.954+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:15:50.953+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:15:50.971+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:15:50.971+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:15:51.997+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 2.351 seconds
+[2026-07-15T17:16:41.305+0200] {processor.py:157} INFO - Started process (PID=3470036) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:16:41.306+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:16:41.307+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:16:41.307+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:16:42.634+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:16:42.645+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:16:42.645+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:16:42.661+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:16:42.661+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:16:45.266+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 3.965 seconds
+[2026-07-15T17:17:30.493+0200] {processor.py:157} INFO - Started process (PID=3471269) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:17:30.495+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:17:30.496+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:17:30.496+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:17:31.769+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:17:31.780+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:17:31.780+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:17:31.800+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:17:31.800+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:17:31.817+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.329 seconds
+[2026-07-15T17:18:37.521+0200] {processor.py:157} INFO - Started process (PID=3472726) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:18:37.522+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:18:37.524+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:18:37.523+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:18:38.842+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:18:38.852+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:18:38.852+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:18:38.870+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:18:38.870+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:18:38.888+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.372 seconds
+[2026-07-15T17:19:56.992+0200] {processor.py:157} INFO - Started process (PID=3474181) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:19:57.065+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:19:57.067+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:19:57.066+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:19:58.373+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:19:58.384+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:19:58.383+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:19:58.402+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:19:58.402+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:20:00.271+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 3.284 seconds
+[2026-07-15T17:20:35.989+0200] {processor.py:157} INFO - Started process (PID=3475100) to work on /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:20:35.990+0200] {processor.py:829} INFO - Processing file /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py for tasks to queue
+[2026-07-15T17:20:35.991+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:20:35.991+0200] {dagbag.py:536} INFO - Filling up the DagBag from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:20:37.340+0200] {processor.py:839} INFO - DAG(s) dict_keys(['clinical_extractor_daily']) retrieved from /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py
+[2026-07-15T17:20:37.355+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:20:37.355+0200] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-07-15T17:20:37.374+0200] {logging_mixin.py:151} INFO - [2026-07-15T17:20:37.373+0200] {dag.py:3722} INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-14T08:30:00+00:00, run_after=2026-07-15T08:30:00+00:00
+[2026-07-15T17:20:37.444+0200] {processor.py:179} INFO - Processing /home/ai/Workspace/Khalid/Clinical Notes/Clinical Extractor/project/dags/clinical_extractor_dag.py took 1.458 seconds

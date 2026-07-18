@@ -1,0 +1,33 @@
+[2026-07-16T10:43:19.672+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clinical_extractor_daily.opd_query manual__2026-07-16T08:43:02.036842+00:00 [queued]>
+[2026-07-16T10:43:19.678+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clinical_extractor_daily.opd_query manual__2026-07-16T08:43:02.036842+00:00 [queued]>
+[2026-07-16T10:43:19.678+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2026-07-16T10:43:19.693+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): opd_query> on 2026-07-16 08:43:02.036842+00:00
+[2026-07-16T10:43:19.698+0200] {standard_task_runner.py:57} INFO - Started process 296204 to run task
+[2026-07-16T10:43:19.708+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_query', 'manual__2026-07-16T08:43:02.036842+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py', '--cfg-path', '/tmp/tmp37a0axt3']
+[2026-07-16T10:43:19.709+0200] {standard_task_runner.py:85} INFO - Job 19: Subtask opd_query
+[2026-07-16T10:43:19.742+0200] {task_command.py:416} INFO - Running <TaskInstance: clinical_extractor_daily.opd_query manual__2026-07-16T08:43:02.036842+00:00 [running]> on host localhost
+[2026-07-16T10:43:19.794+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='clinical-extractor' AIRFLOW_CTX_DAG_ID='clinical_extractor_daily' AIRFLOW_CTX_TASK_ID='opd_query' AIRFLOW_CTX_EXECUTION_DATE='2026-07-16T08:43:02.036842+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-07-16T08:43:02.036842+00:00'
+[2026-07-16T10:43:19.797+0200] {logging_mixin.py:151} INFO -    Configuration loaded:
+[2026-07-16T10:43:19.798+0200] {logging_mixin.py:151} INFO -       Department:  OPD
+[2026-07-16T10:43:19.798+0200] {logging_mixin.py:151} INFO -       Routing:     n/a (pinned)
+[2026-07-16T10:43:19.798+0200] {logging_mixin.py:151} INFO -       Model:       deepseek/deepseek-chat
+[2026-07-16T10:43:19.798+0200] {logging_mixin.py:151} INFO -       DB Server:   172.31.8.178
+[2026-07-16T10:43:19.798+0200] {logging_mixin.py:151} INFO -       DB Name:     DWH
+[2026-07-16T10:43:19.798+0200] {logging_mixin.py:151} INFO -       SQL file:    OPD_query.sql
+[2026-07-16T10:43:19.798+0200] {logging_mixin.py:151} INFO -       Batch size:  1
+[2026-07-16T10:43:19.798+0200] {logging_mixin.py:151} INFO -       Max rows:    unlimited
+[2026-07-16T10:43:19.800+0200] {logging_mixin.py:151} INFO -    Executing SQL query...
+[2026-07-16T10:43:21.763+0200] {logging_mixin.py:151} INFO -    Preserved column 'Patient_Code' as string (sample: 11_1221681)
+[2026-07-16T10:43:21.765+0200] {logging_mixin.py:151} INFO -    Preserved column 'Episode_key' as string (sample: 11_1261191)
+[2026-07-16T10:43:21.767+0200] {logging_mixin.py:151} INFO -    Preserved column 'visit_id' as string (sample: 1261191AHJ)
+[2026-07-16T10:43:21.775+0200] {logging_mixin.py:151} INFO -    Deduplicated note parts in 1 row(s) (SQL cartesian product artefact removed)
+[2026-07-16T10:43:21.776+0200] {logging_mixin.py:151} INFO - 
+   DEBUG: Sample note (before cleaning):
+[2026-07-16T10:43:21.776+0200] {logging_mixin.py:151} INFO -       G2P1 SVD 27+3 WEEKSMED FREE SURG FREE HGB 10.4 PLT 369 URINE SHOWED RBC 25 PHOSPHAT +3 GCT: 93 PLN URINE C/S AND UROLOGY CONSULTAION BED ISDE U/S CEPHALIC 27+3 WEEKS +FH FOLLOW UP WITH ME AFTER 1WEEK...
+[2026-07-16T10:43:21.776+0200] {logging_mixin.py:151} INFO -    DEBUG: Sample note (after cleaning):
+[2026-07-16T10:43:21.777+0200] {logging_mixin.py:151} INFO -       G2P1 SVD 27+3 WEEKSMED FREE SURG FREE HGB 10.4 PLT 369 URINE SHOWED RBC 25 PHOSPHAT +3 GCT: 93 PLN URINE C/S AND UROLOGY CONSULTAION BED ISDE U/S CEPHALIC 27+3 WEEKS +FH FOLLOW UP WITH ME AFTER 1WEEK...
+[2026-07-16T10:43:21.781+0200] {logging_mixin.py:151} INFO -    Loaded 1 note(s) for extraction
+[2026-07-16T10:43:21.782+0200] {python.py:194} INFO - Done. Returned value was: /tmp/clinical_extractor/manual__2026-07-16T08:43:02.036842+00:00/OPD_notes.pkl
+[2026-07-16T10:43:21.901+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clinical_extractor_daily, task_id=opd_query, execution_date=20260716T084302, start_date=20260716T084319, end_date=20260716T084321
+[2026-07-16T10:43:21.922+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-16T10:43:21.952+0200] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,11 @@
+date,run_id,department,model,input_tokens,output_tokens,records,rows_inserted,cost_usd
+2026-07-16,scheduled__2026-07-14T08:30:00+00:00,ER,deepseek/deepseek-chat,0,0,5,5,0.0
+2026-07-16,scheduled__2026-07-14T08:30:00+00:00,OPD,deepseek/deepseek-chat,0,0,5,5,0.0
+2026-07-16,scheduled__2026-07-15T08:30:00+00:00,ER,deepseek/deepseek-chat,0,0,5,5,0.0
+2026-07-16,scheduled__2026-07-15T08:30:00+00:00,OPD,deepseek/deepseek-chat,0,0,5,5,0.0
+2026-07-16,manual__2026-07-16T08:43:02.036842+00:00,ER,deepseek/deepseek-chat,0,0,3,3,0.0
+2026-07-16,manual__2026-07-16T08:43:02.036842+00:00,OPD,deepseek/deepseek-chat,0,0,1,1,0.0
+2026-07-17,scheduled__2026-07-16T08:30:00+00:00,ER,deepseek/deepseek-chat,0,0,3,3,0.0
+2026-07-17,scheduled__2026-07-16T08:30:00+00:00,OPD,deepseek/deepseek-chat,0,0,1,1,0.0
+2026-07-18,scheduled__2026-07-17T08:30:00+00:00,ER,deepseek/deepseek-chat,0,0,2,2,0.0
+2026-07-18,scheduled__2026-07-17T08:30:00+00:00,OPD,deepseek/deepseek-chat,0,0,1,1,0.0

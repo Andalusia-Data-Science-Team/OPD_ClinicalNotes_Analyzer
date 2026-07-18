@@ -1,0 +1,25 @@
+[2026-07-17T14:37:28.009+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clinical_extractor_daily.er_insert scheduled__2026-07-16T08:30:00+00:00 [queued]>
+[2026-07-17T14:37:28.015+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clinical_extractor_daily.er_insert scheduled__2026-07-16T08:30:00+00:00 [queued]>
+[2026-07-17T14:37:28.015+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2026-07-17T14:37:28.050+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): er_insert> on 2026-07-16 08:30:00+00:00
+[2026-07-17T14:37:28.054+0200] {standard_task_runner.py:57} INFO - Started process 1641808 to run task
+[2026-07-17T14:37:28.064+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_insert', 'scheduled__2026-07-16T08:30:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py', '--cfg-path', '/tmp/tmpo5do3x8f']
+[2026-07-17T14:37:28.067+0200] {standard_task_runner.py:85} INFO - Job 29: Subtask er_insert
+[2026-07-17T14:37:28.099+0200] {task_command.py:416} INFO - Running <TaskInstance: clinical_extractor_daily.er_insert scheduled__2026-07-16T08:30:00+00:00 [running]> on host localhost
+[2026-07-17T14:37:28.238+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='clinical-extractor' AIRFLOW_CTX_DAG_ID='clinical_extractor_daily' AIRFLOW_CTX_TASK_ID='er_insert' AIRFLOW_CTX_EXECUTION_DATE='2026-07-16T08:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-07-16T08:30:00+00:00'
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -    Configuration loaded:
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -       Department:  ER
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -       Routing:     n/a (pinned)
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -       Model:       deepseek/deepseek-chat
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -       DB Server:   172.31.8.178
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -       DB Name:     DWH
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -       SQL file:    er_query.sql
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -       Batch size:  1
+[2026-07-17T14:37:29.516+0200] {logging_mixin.py:151} INFO -       Max rows:    unlimited
+[2026-07-17T14:37:31.421+0200] {logging_mixin.py:151} INFO -    Renamed source column 'ShortName' -> 'BU' for destination table
+[2026-07-17T14:37:31.421+0200] {logging_mixin.py:151} INFO -    Renaming columns to match DB casing: {'FormattedDate': 'formatteddate', 'Doctor_Name': 'doctor_name', 'Patient_Code': 'patient_code', 'Episode_key': 'episode_key', 'Note': 'note', 'ICD10_code': 'icd10_code'}
+[2026-07-17T14:37:31.442+0200] {logging_mixin.py:151} INFO -    WARNING: Dropping columns not in destination table: ['BU', 'Patient_Identification', 'Arrival_Triage', 'Chief_Complaint', 'Medical_Surgical_History', 'Allergies_Adverse_Reactions', 'Drug_History', 'Vital_Signs_Initial', 'Assessment', 'Imaging_Results_Text', 'Plan_Text', 'Disposition_Discharge', 'Recommended_ICD10', 'Documentation_Appropriateness']
+[2026-07-17T14:37:32.799+0200] {python.py:194} INFO - Done. Returned value was: 3
+[2026-07-17T14:37:32.888+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clinical_extractor_daily, task_id=er_insert, execution_date=20260716T083000, start_date=20260717T123728, end_date=20260717T123732
+[2026-07-17T14:37:33.007+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-17T14:37:33.030+0200] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

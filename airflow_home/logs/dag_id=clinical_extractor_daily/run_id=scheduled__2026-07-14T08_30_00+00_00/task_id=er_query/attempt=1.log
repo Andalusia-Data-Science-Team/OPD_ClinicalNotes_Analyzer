@@ -1,0 +1,33 @@
+[2026-07-16T10:26:13.943+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-14T08:30:00+00:00 [queued]>
+[2026-07-16T10:26:13.950+0200] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-14T08:30:00+00:00 [queued]>
+[2026-07-16T10:26:13.950+0200] {taskinstance.py:1361} INFO - Starting attempt 1 of 3
+[2026-07-16T10:26:13.966+0200] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): er_query> on 2026-07-14 08:30:00+00:00
+[2026-07-16T10:26:13.973+0200] {standard_task_runner.py:57} INFO - Started process 280112 to run task
+[2026-07-16T10:26:13.983+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_query', 'scheduled__2026-07-14T08:30:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py', '--cfg-path', '/tmp/tmp5rbp68ki']
+[2026-07-16T10:26:13.984+0200] {standard_task_runner.py:85} INFO - Job 6: Subtask er_query
+[2026-07-16T10:26:14.032+0200] {task_command.py:416} INFO - Running <TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-14T08:30:00+00:00 [running]> on host localhost
+[2026-07-16T10:26:14.096+0200] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='clinical-extractor' AIRFLOW_CTX_DAG_ID='clinical_extractor_daily' AIRFLOW_CTX_TASK_ID='er_query' AIRFLOW_CTX_EXECUTION_DATE='2026-07-14T08:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-07-14T08:30:00+00:00'
+[2026-07-16T10:26:14.104+0200] {logging_mixin.py:151} INFO -    Configuration loaded:
+[2026-07-16T10:26:14.104+0200] {logging_mixin.py:151} INFO -       Department:  ER
+[2026-07-16T10:26:14.105+0200] {logging_mixin.py:151} INFO -       Routing:     n/a (pinned)
+[2026-07-16T10:26:14.105+0200] {logging_mixin.py:151} INFO -       Model:       deepseek/deepseek-chat
+[2026-07-16T10:26:14.105+0200] {logging_mixin.py:151} INFO -       DB Server:   172.31.8.178
+[2026-07-16T10:26:14.105+0200] {logging_mixin.py:151} INFO -       DB Name:     DWH
+[2026-07-16T10:26:14.105+0200] {logging_mixin.py:151} INFO -       SQL file:    er_query.sql
+[2026-07-16T10:26:14.105+0200] {logging_mixin.py:151} INFO -       Batch size:  1
+[2026-07-16T10:26:14.105+0200] {logging_mixin.py:151} INFO -       Max rows:    unlimited
+[2026-07-16T10:26:14.138+0200] {logging_mixin.py:151} INFO -    Executing SQL query...
+[2026-07-16T10:26:19.053+0200] {logging_mixin.py:151} INFO -    Preserved column 'Patient_Code' as string (sample: 220406714)
+[2026-07-16T10:26:19.055+0200] {logging_mixin.py:151} INFO -    Preserved column 'Episode_key' as string (sample: 22_3353917)
+[2026-07-16T10:26:19.057+0200] {logging_mixin.py:151} INFO -    Preserved column 'visit_id' as string (sample: 3353917AMH)
+[2026-07-16T10:26:19.068+0200] {logging_mixin.py:151} INFO -    Deduplicated note parts in 3 row(s) (SQL cartesian product artefact removed)
+[2026-07-16T10:26:19.092+0200] {logging_mixin.py:151} INFO - 
+   DEBUG: Sample note (before cleaning):
+[2026-07-16T10:26:19.092+0200] {logging_mixin.py:151} INFO -       Chief Complaint (C/O): LT UPPER LIMB PAIN POST ISOLATED TRAUMAonset : ACUTEcourse : STATIONARYPast Medical History: NPMHPast Surgical History: NPSHPrimary Survey: ACCEPTEDExamination: TENDER LT FOREAR...
+[2026-07-16T10:26:19.093+0200] {logging_mixin.py:151} INFO -    DEBUG: Sample note (after cleaning):
+[2026-07-16T10:26:19.093+0200] {logging_mixin.py:151} INFO -       Chief Complaint (C/O): LT UPPER LIMB PAIN POST ISOLATED TRAUMAonset : ACUTEcourse : STATIONARYPast Medical History: NPMHPast Surgical History: NPSHPrimary Survey: ACCEPTEDExamination: TENDER LT FOREAR...
+[2026-07-16T10:26:19.443+0200] {logging_mixin.py:151} INFO -    Loaded 5 note(s) for extraction
+[2026-07-16T10:26:19.445+0200] {python.py:194} INFO - Done. Returned value was: /tmp/clinical_extractor/scheduled__2026-07-14T08:30:00+00:00/ER_notes.pkl
+[2026-07-16T10:26:19.469+0200] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clinical_extractor_daily, task_id=er_query, execution_date=20260714T083000, start_date=20260716T082613, end_date=20260716T082619
+[2026-07-16T10:26:19.520+0200] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2026-07-16T10:26:19.546+0200] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

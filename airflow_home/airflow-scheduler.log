@@ -1,0 +1,438 @@
+2026-07-17 15:36:47,491 INFO - Starting the scheduler
+2026-07-17 15:36:47,492 INFO - Processing each file at most -1 times
+2026-07-17 15:36:47,498 INFO - Launched DagFileProcessorManager with pid: 1641201
+2026-07-17 15:36:47,500 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 15:36:47,508 INFO - Configured default timezone Timezone('UTC')
+2026-07-17 15:36:47,525 INFO - Marked 1 SchedulerJob instances as failed
+2026-07-17 15:36:47,860 INFO - DAG clinical_extractor_daily is at (or above) max_active_runs (1 of 1), not creating any more runs
+2026-07-17 15:36:47,931 INFO - 2 tasks up for execution:
+	<TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_query scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+2026-07-17 15:36:47,931 INFO - DAG clinical_extractor_daily has 0/16 running and queued tasks
+2026-07-17 15:36:47,931 INFO - DAG clinical_extractor_daily has 1/16 running and queued tasks
+2026-07-17 15:36:47,931 INFO - Setting the following tasks to queued state:
+	<TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_query scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+2026-07-17 15:36:47,933 WARNING - cannot record scheduled_duration for task er_query because previous state change time has not been saved
+2026-07-17 15:36:47,933 WARNING - cannot record scheduled_duration for task opd_query because previous state change time has not been saved
+2026-07-17 15:36:47,934 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_query', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2026-07-17 15:36:47,934 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_query', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:36:47,935 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_query', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2026-07-17 15:36:47,935 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_query', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:36:47,939 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_query', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:36:55,760 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_query', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:00,579 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_query', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-17 15:37:00,581 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_query', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-17 15:37:00,596 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=er_query, run_id=scheduled__2026-07-16T08:30:00+00:00, map_index=-1, run_start_date=2026-07-17 12:36:49.723818+00:00, run_end_date=2026-07-17 12:36:54.857253+00:00, run_duration=5.133435, state=success, executor_state=success, try_number=1, max_tries=2, job_id=25, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-07-17 12:36:47.932292+00:00, queued_by_job_id=24, pid=1641237
+2026-07-17 15:37:00,596 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=opd_query, run_id=scheduled__2026-07-16T08:30:00+00:00, map_index=-1, run_start_date=2026-07-17 12:36:56.939233+00:00, run_end_date=2026-07-17 12:37:00.225267+00:00, run_duration=3.286034, state=success, executor_state=success, try_number=1, max_tries=2, job_id=26, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-07-17 12:36:47.932292+00:00, queued_by_job_id=24, pid=1641278
+2026-07-17 15:37:00,674 INFO - 2 tasks up for execution:
+	<TaskInstance: clinical_extractor_daily.er_ai_process scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_ai_process scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+2026-07-17 15:37:00,674 INFO - DAG clinical_extractor_daily has 0/16 running and queued tasks
+2026-07-17 15:37:00,674 INFO - DAG clinical_extractor_daily has 1/16 running and queued tasks
+2026-07-17 15:37:00,674 INFO - Setting the following tasks to queued state:
+	<TaskInstance: clinical_extractor_daily.er_ai_process scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_ai_process scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+2026-07-17 15:37:00,675 WARNING - cannot record scheduled_duration for task er_ai_process because previous state change time has not been saved
+2026-07-17 15:37:00,676 WARNING - cannot record scheduled_duration for task opd_ai_process because previous state change time has not been saved
+2026-07-17 15:37:00,676 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_ai_process', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2026-07-17 15:37:00,676 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_ai_process', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:00,676 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_ai_process', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2026-07-17 15:37:00,676 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_ai_process', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:00,682 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_ai_process', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:16,415 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_ai_process', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:26,407 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_ai_process', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-17 15:37:26,409 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_ai_process', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-17 15:37:26,421 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=er_ai_process, run_id=scheduled__2026-07-16T08:30:00+00:00, map_index=-1, run_start_date=2026-07-17 12:37:01.827843+00:00, run_end_date=2026-07-17 12:37:16.131008+00:00, run_duration=14.303165, state=success, executor_state=success, try_number=1, max_tries=2, job_id=27, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-07-17 12:37:00.675002+00:00, queued_by_job_id=24, pid=1641384
+2026-07-17 15:37:26,422 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=opd_ai_process, run_id=scheduled__2026-07-16T08:30:00+00:00, map_index=-1, run_start_date=2026-07-17 12:37:17.603507+00:00, run_end_date=2026-07-17 12:37:25.947820+00:00, run_duration=8.344313, state=success, executor_state=success, try_number=1, max_tries=2, job_id=28, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-07-17 12:37:00.675002+00:00, queued_by_job_id=24, pid=1641670
+2026-07-17 15:37:26,773 INFO - 2 tasks up for execution:
+	<TaskInstance: clinical_extractor_daily.er_insert scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_insert scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+2026-07-17 15:37:26,774 INFO - DAG clinical_extractor_daily has 0/16 running and queued tasks
+2026-07-17 15:37:26,774 INFO - DAG clinical_extractor_daily has 1/16 running and queued tasks
+2026-07-17 15:37:26,774 INFO - Setting the following tasks to queued state:
+	<TaskInstance: clinical_extractor_daily.er_insert scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_insert scheduled__2026-07-16T08:30:00+00:00 [scheduled]>
+2026-07-17 15:37:26,775 WARNING - cannot record scheduled_duration for task er_insert because previous state change time has not been saved
+2026-07-17 15:37:26,775 WARNING - cannot record scheduled_duration for task opd_insert because previous state change time has not been saved
+2026-07-17 15:37:26,776 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_insert', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2026-07-17 15:37:26,776 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_insert', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:26,776 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_insert', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2026-07-17 15:37:26,776 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_insert', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:26,819 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_insert', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:33,258 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_insert', 'scheduled__2026-07-16T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-17 15:37:37,718 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_insert', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-17 15:37:37,720 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_insert', run_id='scheduled__2026-07-16T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-17 15:37:37,733 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=er_insert, run_id=scheduled__2026-07-16T08:30:00+00:00, map_index=-1, run_start_date=2026-07-17 12:37:28.009359+00:00, run_end_date=2026-07-17 12:37:32.888714+00:00, run_duration=4.879355, state=success, executor_state=success, try_number=1, max_tries=2, job_id=29, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-07-17 12:37:26.774894+00:00, queued_by_job_id=24, pid=1641808
+2026-07-17 15:37:37,733 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=opd_insert, run_id=scheduled__2026-07-16T08:30:00+00:00, map_index=-1, run_start_date=2026-07-17 12:37:34.412220+00:00, run_end_date=2026-07-17 12:37:37.407554+00:00, run_duration=2.995334, state=success, executor_state=success, try_number=1, max_tries=2, job_id=30, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-07-17 12:37:26.774894+00:00, queued_by_job_id=24, pid=1641912
+2026-07-17 15:37:37,786 INFO - Marking run <DagRun clinical_extractor_daily @ 2026-07-16 08:30:00+00:00: scheduled__2026-07-16T08:30:00+00:00, state:running, queued_at: 2026-07-17 12:36:47.848748+00:00. externally triggered: False> successful
+2026-07-17 15:37:37,788 INFO - DagRun Finished: dag_id=clinical_extractor_daily, execution_date=2026-07-16 08:30:00+00:00, run_id=scheduled__2026-07-16T08:30:00+00:00, run_start_date=2026-07-17 12:36:47.881848+00:00, run_end_date=2026-07-17 12:37:37.787914+00:00, run_duration=49.906066, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2026-07-16 08:30:00+00:00, data_interval_end=2026-07-17 08:30:00+00:00, dag_hash=7bec910b7e087955468d8d9cd1d5b95d
+2026-07-17 15:37:37,794 INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-17T08:30:00+00:00, run_after=2026-07-18T08:30:00+00:00
+2026-07-17 15:41:48,131 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 15:46:48,177 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 15:51:48,221 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 15:56:48,264 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:01:48,304 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:06:48,347 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:11:48,398 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:16:48,440 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:21:48,478 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:26:48,737 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:31:48,787 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:36:48,826 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:41:48,868 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:46:48,912 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:51:48,949 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 16:56:48,995 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:01:49,034 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:06:49,079 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:11:49,123 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:16:49,171 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:21:49,211 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:26:49,243 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:31:49,281 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:36:49,324 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:41:49,992 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:46:50,041 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:51:50,085 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 17:56:50,127 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:01:50,168 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:06:50,499 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:11:50,551 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:16:50,595 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:21:50,644 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:26:50,685 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:31:50,724 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:36:50,771 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:41:50,817 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:46:50,859 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:51:50,902 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 18:56:50,943 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:01:50,993 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:06:51,011 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:11:51,054 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:16:51,095 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:21:51,138 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:26:51,180 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:31:51,226 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:36:51,271 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:41:51,312 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:46:51,360 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:51:51,404 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 19:56:51,447 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:01:52,869 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:06:52,910 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:11:52,959 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:16:53,004 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:21:53,054 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:26:53,100 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:31:53,147 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:36:53,190 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:41:53,232 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:46:53,272 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:51:53,317 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 20:56:53,359 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:01:53,402 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:06:53,474 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:11:53,516 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:16:53,561 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:21:53,603 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:26:53,660 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:31:53,707 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:36:53,753 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:41:53,914 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:46:53,965 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:51:54,008 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 21:56:54,051 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:01:54,181 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:06:54,229 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:11:54,279 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:16:54,328 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:21:54,369 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:26:54,412 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:31:54,463 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:36:54,511 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:41:54,556 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:46:54,600 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:51:54,641 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 22:56:54,685 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:01:54,728 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:06:54,757 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:11:54,795 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:16:54,833 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:21:54,871 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:26:54,907 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:31:54,942 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:36:54,995 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:41:55,037 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:46:55,101 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:51:55,146 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-17 23:56:55,190 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:01:55,235 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:06:55,279 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:11:55,327 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:16:55,371 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:21:55,410 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:26:55,459 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:31:55,497 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:36:55,543 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:41:55,594 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:46:55,639 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:51:55,702 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 00:56:55,745 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:01:55,789 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:06:55,824 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:11:55,859 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:16:56,052 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:21:56,090 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:26:56,133 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:31:56,178 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:36:56,222 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:41:56,270 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:46:56,312 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:51:56,355 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 01:56:56,399 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:01:56,425 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:06:56,685 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:11:56,739 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:16:56,782 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:21:56,822 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:26:56,861 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:31:56,907 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:36:56,950 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:41:56,994 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:46:57,038 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:51:57,094 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 02:56:57,133 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:01:57,178 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:06:57,227 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:11:58,010 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:16:58,081 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:21:58,127 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:26:58,168 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:31:58,212 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:36:58,787 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:41:58,831 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:46:58,874 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:51:58,918 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 03:56:59,178 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:01:59,221 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:06:59,264 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:11:59,314 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:16:59,360 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:21:59,406 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:26:59,447 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:31:59,488 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:36:59,528 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:41:59,569 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:46:59,614 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:52:00,563 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 04:57:00,611 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:02:00,650 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:07:00,694 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:12:00,738 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:17:00,780 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:22:00,817 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:27:00,853 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:32:00,892 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:37:00,931 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:42:00,980 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:47:01,020 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:52:01,055 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 05:57:01,101 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:02:01,141 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:07:01,190 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:12:01,272 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:17:01,310 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:22:01,356 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:27:01,392 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:32:01,441 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:37:01,483 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:42:01,524 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:47:01,568 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:52:01,616 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 06:57:01,655 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:02:01,698 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:07:01,745 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:12:01,779 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:17:01,822 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:22:01,865 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:27:01,901 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:32:01,945 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:37:01,985 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:42:02,028 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:47:02,070 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:52:02,104 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 07:57:02,146 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:02:02,190 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:07:02,232 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:12:02,275 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:17:02,321 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:22:02,368 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:27:02,415 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:32:03,313 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:37:03,355 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:42:03,397 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:47:03,438 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:52:03,486 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 08:57:03,531 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:02:03,582 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:07:03,626 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:12:03,673 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:17:03,717 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:22:03,763 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:27:03,803 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:32:03,840 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:37:03,875 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:42:03,919 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:47:03,963 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:52:04,120 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 09:57:04,266 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:02:04,315 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:07:04,357 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:12:04,395 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:17:04,445 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:22:04,489 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:27:04,531 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:32:04,573 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:37:04,620 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:42:04,669 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:47:04,710 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:52:04,760 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 10:57:04,808 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:02:04,851 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:07:04,896 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:12:04,939 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:17:04,982 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:22:05,026 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:27:05,067 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:30:02,011 INFO - DAG clinical_extractor_daily is at (or above) max_active_runs (1 of 1), not creating any more runs
+2026-07-18 11:30:02,804 INFO - 2 tasks up for execution:
+	<TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_query scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+2026-07-18 11:30:02,804 INFO - DAG clinical_extractor_daily has 0/16 running and queued tasks
+2026-07-18 11:30:02,805 INFO - DAG clinical_extractor_daily has 1/16 running and queued tasks
+2026-07-18 11:30:02,805 INFO - Setting the following tasks to queued state:
+	<TaskInstance: clinical_extractor_daily.er_query scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_query scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+2026-07-18 11:30:02,806 WARNING - cannot record scheduled_duration for task er_query because previous state change time has not been saved
+2026-07-18 11:30:02,806 WARNING - cannot record scheduled_duration for task opd_query because previous state change time has not been saved
+2026-07-18 11:30:02,806 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_query', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2026-07-18 11:30:02,807 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_query', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:02,807 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_query', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2026-07-18 11:30:02,807 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_query', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:02,810 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_query', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:11,158 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_query', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:15,168 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_query', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-18 11:30:15,171 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_query', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-18 11:30:15,185 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=er_query, run_id=scheduled__2026-07-17T08:30:00+00:00, map_index=-1, run_start_date=2026-07-18 08:30:04.193872+00:00, run_end_date=2026-07-18 08:30:10.860747+00:00, run_duration=6.666875, state=success, executor_state=success, try_number=1, max_tries=2, job_id=31, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-07-18 08:30:02.805548+00:00, queued_by_job_id=24, pid=2645768
+2026-07-18 11:30:15,186 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=opd_query, run_id=scheduled__2026-07-17T08:30:00+00:00, map_index=-1, run_start_date=2026-07-18 08:30:12.338753+00:00, run_end_date=2026-07-18 08:30:14.872526+00:00, run_duration=2.533773, state=success, executor_state=success, try_number=1, max_tries=2, job_id=32, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2026-07-18 08:30:02.805548+00:00, queued_by_job_id=24, pid=2645880
+2026-07-18 11:30:15,472 INFO - 2 tasks up for execution:
+	<TaskInstance: clinical_extractor_daily.er_ai_process scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_ai_process scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+2026-07-18 11:30:15,472 INFO - DAG clinical_extractor_daily has 0/16 running and queued tasks
+2026-07-18 11:30:15,473 INFO - DAG clinical_extractor_daily has 1/16 running and queued tasks
+2026-07-18 11:30:15,473 INFO - Setting the following tasks to queued state:
+	<TaskInstance: clinical_extractor_daily.er_ai_process scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_ai_process scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+2026-07-18 11:30:15,474 WARNING - cannot record scheduled_duration for task er_ai_process because previous state change time has not been saved
+2026-07-18 11:30:15,474 WARNING - cannot record scheduled_duration for task opd_ai_process because previous state change time has not been saved
+2026-07-18 11:30:15,475 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_ai_process', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2026-07-18 11:30:15,475 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_ai_process', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:15,475 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_ai_process', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2026-07-18 11:30:15,475 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_ai_process', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:15,479 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_ai_process', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:29,368 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_ai_process', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:36,757 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_ai_process', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-18 11:30:36,759 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_ai_process', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-18 11:30:36,771 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=er_ai_process, run_id=scheduled__2026-07-17T08:30:00+00:00, map_index=-1, run_start_date=2026-07-18 08:30:16.676552+00:00, run_end_date=2026-07-18 08:30:29.101932+00:00, run_duration=12.42538, state=success, executor_state=success, try_number=1, max_tries=2, job_id=33, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-07-18 08:30:15.473547+00:00, queued_by_job_id=24, pid=2645979
+2026-07-18 11:30:36,772 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=opd_ai_process, run_id=scheduled__2026-07-17T08:30:00+00:00, map_index=-1, run_start_date=2026-07-18 08:30:31.173043+00:00, run_end_date=2026-07-18 08:30:36.466262+00:00, run_duration=5.293219, state=success, executor_state=success, try_number=1, max_tries=2, job_id=34, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2026-07-18 08:30:15.473547+00:00, queued_by_job_id=24, pid=2646164
+2026-07-18 11:30:36,942 INFO - 2 tasks up for execution:
+	<TaskInstance: clinical_extractor_daily.er_insert scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_insert scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+2026-07-18 11:30:36,943 INFO - DAG clinical_extractor_daily has 0/16 running and queued tasks
+2026-07-18 11:30:36,943 INFO - DAG clinical_extractor_daily has 1/16 running and queued tasks
+2026-07-18 11:30:36,943 INFO - Setting the following tasks to queued state:
+	<TaskInstance: clinical_extractor_daily.er_insert scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+	<TaskInstance: clinical_extractor_daily.opd_insert scheduled__2026-07-17T08:30:00+00:00 [scheduled]>
+2026-07-18 11:30:36,944 WARNING - cannot record scheduled_duration for task er_insert because previous state change time has not been saved
+2026-07-18 11:30:36,944 WARNING - cannot record scheduled_duration for task opd_insert because previous state change time has not been saved
+2026-07-18 11:30:36,945 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_insert', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2026-07-18 11:30:36,945 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_insert', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:36,945 INFO - Sending TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_insert', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2026-07-18 11:30:36,945 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_insert', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:36,949 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'er_insert', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:42,081 INFO - Executing command: ['airflow', 'tasks', 'run', 'clinical_extractor_daily', 'opd_insert', 'scheduled__2026-07-17T08:30:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/clinical_extractor_dag.py']
+2026-07-18 11:30:46,781 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='er_insert', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-18 11:30:46,783 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='clinical_extractor_daily', task_id='opd_insert', run_id='scheduled__2026-07-17T08:30:00+00:00', try_number=1, map_index=-1)
+2026-07-18 11:30:46,796 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=er_insert, run_id=scheduled__2026-07-17T08:30:00+00:00, map_index=-1, run_start_date=2026-07-18 08:30:38.087719+00:00, run_end_date=2026-07-18 08:30:41.788403+00:00, run_duration=3.700684, state=success, executor_state=success, try_number=1, max_tries=2, job_id=35, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-07-18 08:30:36.943753+00:00, queued_by_job_id=24, pid=2646251
+2026-07-18 11:30:46,796 INFO - TaskInstance Finished: dag_id=clinical_extractor_daily, task_id=opd_insert, run_id=scheduled__2026-07-17T08:30:00+00:00, map_index=-1, run_start_date=2026-07-18 08:30:43.246907+00:00, run_end_date=2026-07-18 08:30:46.076468+00:00, run_duration=2.829561, state=success, executor_state=success, try_number=1, max_tries=2, job_id=36, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2026-07-18 08:30:36.943753+00:00, queued_by_job_id=24, pid=2646314
+2026-07-18 11:30:47,136 INFO - Marking run <DagRun clinical_extractor_daily @ 2026-07-17 08:30:00+00:00: scheduled__2026-07-17T08:30:00+00:00, state:running, queued_at: 2026-07-18 08:30:02.007389+00:00. externally triggered: False> successful
+2026-07-18 11:30:47,137 INFO - DagRun Finished: dag_id=clinical_extractor_daily, execution_date=2026-07-17 08:30:00+00:00, run_id=scheduled__2026-07-17T08:30:00+00:00, run_start_date=2026-07-18 08:30:02.748428+00:00, run_end_date=2026-07-18 08:30:47.137189+00:00, run_duration=44.388761, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2026-07-17 08:30:00+00:00, data_interval_end=2026-07-18 08:30:00+00:00, dag_hash=7bec910b7e087955468d8d9cd1d5b95d
+2026-07-18 11:30:47,141 INFO - Setting next_dagrun for clinical_extractor_daily to 2026-07-18T08:30:00+00:00, run_after=2026-07-19T08:30:00+00:00
+2026-07-18 11:32:05,104 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:37:05,149 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:42:05,193 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:47:05,242 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:52:05,285 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 11:57:05,328 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:02:05,369 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:07:05,417 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:12:05,453 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:17:05,499 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:22:05,542 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:27:05,591 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:32:05,631 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:37:05,674 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:42:05,714 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:47:05,766 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:52:06,395 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 12:57:06,442 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:02:06,477 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:07:06,521 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:12:06,565 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:17:06,608 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:22:06,651 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:27:06,690 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:32:06,743 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:37:06,788 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:42:06,837 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:47:06,875 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:52:06,912 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 13:57:06,952 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:02:06,998 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:07:07,041 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:12:07,085 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:17:07,130 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:22:07,172 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:27:07,214 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:32:07,256 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:37:07,298 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:42:07,341 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:47:07,387 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:52:07,430 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 14:57:07,465 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:02:07,500 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:07:07,545 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:12:07,588 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:17:07,639 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:22:07,684 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:27:07,737 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:32:07,781 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:37:07,822 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:42:07,862 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:47:07,899 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:52:07,939 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 15:57:07,993 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:02:08,038 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:07:08,080 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:12:08,114 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:17:08,153 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:22:08,196 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:27:08,239 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:32:08,284 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:37:08,324 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:42:08,331 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:47:08,374 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:52:08,575 INFO - Adopting or resetting orphaned tasks for active dag runs
+2026-07-18 16:57:08,611 INFO - Adopting or resetting orphaned tasks for active dag runs
